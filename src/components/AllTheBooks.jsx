@@ -5,12 +5,10 @@ import { useState } from 'react';
 import Cerca from './Cerca';
 
 
-export default function Card({films}) {
-  
-  
-        {/* creo tramite useState un valore di partenza vuoto in quanto la barra di ricerca è vuota e si valorizzerò tramite la funzione SetSearch che andrà a prendere
+export default function Card({films}) {  
+        /* creo tramite useState un valore di partenza vuoto in quanto la barra di ricerca è vuota e si valorizzerò tramite la funzione SetSearch che andrà a prendere
          il value del componente cerca
-    */ }
+    */ 
     const [search, setSearch] = useState('');
   
     const handleInputChange = (e) => {
